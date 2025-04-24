@@ -1,8 +1,6 @@
 # 📄 Claim Summarization AI  
 *AI-powered summarization of insurance claim documents*
 
-![Demo](https://via.placeholder.com/600x400?text=Streamlit+Demo) *(Add a GIF/screenshot later)*
-
 ## Features ✨
 - **Single & Multi-Document Summarization**  
 - **AI-Powered Key Point Extraction**  
