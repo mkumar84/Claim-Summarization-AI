@@ -235,6 +235,14 @@ def create_zip_file(files):
     zip_buffer.seek(0)
     return zip_buffer
 
+def footer():
+    st.markdown("---")
+    st.markdown(
+        """<div style="text-align: center; padding: 10px;">
+            Built by <b>Mahesh Kumar</b> for experimentation
+            </div>""",
+        unsafe_allow_html=True
+    )
 # Main App
 def main():
     st.title("📄 Insurance Claim Document Summarization AI")
@@ -377,6 +385,6 @@ def main():
                         file_name=f"{selected_claim_id}_summary_report.txt",
                         mime="text/plain"
                     )
-
+    footer()
 if __name__ == "__main__":
     main()
